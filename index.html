@@ -6,7 +6,46 @@
     <title>Monster Hunter: Worlds Damage Calculator</title>
 </head>
 <body>
-    
+    <div id="container">
+        <div id="weaponSelect">
+            <label for="weapon">Select your weapon: </label>
+            <select id="weapon">
+                <option value="">--Make a choice--</option>
+                <option value="bow">Bow</option>
+                <option value="chargeBlade">Charge Blade</option>
+                <option value="dualBlades">Dual Blades</option>
+                <option value="greatSword">Great Sword</option>
+                <option value="gunlance">Gunlance</option>
+                <option value="hammer">Hammer</option>
+                <option value="heavyBowgun">Heavy Bowgun</option>
+                <option value="huntingHorn">Hunting Horn</option>
+                <option value="insectGlaive">Insect glaive</option>
+                <option value="lance">Lance</option>
+                <option value="lightBowgun">Light Bowgun</option>
+                <option value="longSword">Long Sword</option>
+                <option value="switchAxe">Switch Axe</option>
+                <option value="swordAndShield">Sword & Shield</option>
+            </select>
+        </div>
+        <div>
+            <label for="attackInput">Enter attack damage value</label>
+            <input type="number" id="attackInput">
+        </div>
+        <div>
+            <label for="sharpness">Select sharpness: </label>
+            <select id="sharpness">
+                <option value="">--Make a choice--</option>
+                <option value="shrpRed">Red</option>
+                <option value="shrpOrange">Orange</option>
+                <option value="shrpYellow">Yellow</option>
+                <option value="shrpGreen">Green</option>
+                <option value="shrpBlue">Blue</option>
+                <option value="shrpWhite">White</option>
+                <option value="shrpPurple">Purple</option>
+            </select>
+        </div>
+        <button id="calculate">Calculate</button>
+    </div>
     <script src="script.js">
 
     </script>
